@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flex layout sample</title>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+    }
+    .wrapper-row {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .wrapper-row div {
+      padding: 2em;
+    }
+    .wrapper-row div {
+      background-color: grey;
+    }
+    .wrapper-row div:first-child, .wrapper-row div:last-child {
+      background-color: #000;
+    }
+    .content {
+      flex-grow: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper-row">
+    <div></div>
+    <div class="content"></div>
+    <div></div>
+  </div>
+</body>
+
+</html>

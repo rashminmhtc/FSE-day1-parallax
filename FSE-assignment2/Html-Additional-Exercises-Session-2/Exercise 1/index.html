@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Box assignment</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    body > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      height: 100px;
+      width: 100px;
+      background-color: #000;
+    }
+    /*
+    Without flex usage:
+    body>div {
+      text-align: center;
+      margin-top: 40vh;
+    }
+    .box {
+      height: 100px;
+      width: 100px;
+      background-color: #000;
+      display: inline-block;
+    } */
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="box"></div>
+  </div>
+</body>
+
+</html>

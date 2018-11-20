@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML5 template sample</title>
+    <style>
+
+    </style>
+
+  </head>
+  <body>
+    <h1>HTML5 template sample</h1>
+    <div class="mainContent">
+      <button onclick="insertTemplateContent()">click here to add</button>
+      <div id="templateContent"></div>
+      <template>
+        <style type="text/css">
+          .templateInnerContent {
+            border: 1px solid #000;
+          }
+        </style>
+        <script>
+          window.alert('new template added!');
+        </script>
+        <div class="templateInnerContent">
+          Hey there this is template content section no: <span id="autoUpdate">0</span>
+        </div>
+      </template>
+    </div>
+    <script type="text/javascript">
+      function insertTemplateContent() {
+        var templateTag = document.getElementById('templateContent');
+        var spanTag = templateTag.querySelector('#autoUpdate').innerHTML;
+        console.log(spanTag);
+      }
+    </script>
+  </body>
+</html>

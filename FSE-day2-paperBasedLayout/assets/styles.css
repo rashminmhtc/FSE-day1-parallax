@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #ccc;
+  color: #fff;
+}
+
+.wrapperContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+section {
+  overflow-y: auto;
+}
+
+section div {
+  display: flex;
+}
+
+header.paper, footer.paper {
+  background-color: #4B5358;
+}
+
+nav.paper {
+  background-color: #746D75;
+}
+
+section .paper {
+  background-color: #8d8d92;
+  margin: 1em;
+  flex-grow: 1;
+}
+
+.paper {
+  background-color: #fff;
+  padding: 1em;
+  margin: 0;
+  box-shadow: 0.5em 0.5em 0.2em grey
+}

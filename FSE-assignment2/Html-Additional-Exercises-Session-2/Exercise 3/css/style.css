@@ -1,0 +1,28 @@
+body, h1 {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: #ccc;
+}
+header {
+  display: flex;
+  background-color: #7a7a7a;
+  padding: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImg {
+  background-image: url('http://www.placepuppy.net/75/75');
+  height: 75px;
+  width: 75px;
+  display: inline-block;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  padding: 0.25em;
+}

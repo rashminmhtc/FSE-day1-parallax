@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #575757;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  padding: 0 0.5em;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  background: url(http://www.placepuppy.net/1p/50/50);
+}
