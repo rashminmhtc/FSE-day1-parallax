@@ -1,0 +1,39 @@
+html, body, header, ul, li, section, h1 {
+  margin: 0;
+  padding: 0;
+  color: darkslategrey;
+}
+html, body, section {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  text-align: center;
+}
+header {
+  padding: 1em;
+  background-color: lightgrey;
+  columns: 10;
+}
+header ul {
+  list-style: none;
+}
+.section-1 {
+    background: #fff url('Parallax-1.jpeg') no-repeat right top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.section-2 {
+    background: #fff url('Parallax-2.png') no-repeat right top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.section-3 {
+    background: #fff url('Parallax-3.jpeg') no-repeat right top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
